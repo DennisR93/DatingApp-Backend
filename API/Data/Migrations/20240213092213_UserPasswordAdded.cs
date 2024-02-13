@@ -14,14 +14,14 @@ namespace API.Data.Migrations
                 name: "PasswordHash",
                 table: "Users",
                 type: "BLOB",
-                nullable: true
+                nullable: false
                 );
 
             migrationBuilder.AddColumn<byte[]>(
                 name: "PasswordSalt",
                 table: "Users",
                 type: "BLOB",
-                nullable: true
+                nullable: false
                 );
         }
 
