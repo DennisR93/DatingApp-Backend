@@ -71,3 +71,8 @@
 /Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/obj/Debug/net7.0/API.pdb
 /Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/obj/Debug/net7.0/API.genruntimeconfig.cache
 /Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/obj/Debug/net7.0/ref/API.dll
+/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
