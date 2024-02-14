@@ -1,11 +1,14 @@
 using System;
 using API.Data;
 using API.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
+    // [AllowAnonymous] will bypass all
+    [Authorize]
    public class UsersController : BaseApiController
     {
         private readonly DataContext _context;
@@ -14,7 +17,8 @@ namespace API.Controllers
         {
             _context = context;
         }
-
+        
+        [AllowAnonymous]
         [HttpGet]
         public async Task <ActionResult<IEnumerable<AppUser>>> GetUsers()
         {
@@ -23,6 +27,7 @@ namespace API.Controllers
             return users;
         }
 
+        // [Authorize] no need because there is authorize on top level
         [HttpGet("{id}")] // /api/users/2
         public async Task <ActionResult<AppUser>> GetUser(int id)
         {
