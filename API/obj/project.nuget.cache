@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vx8f8ZojNrPVu372lJnvbYl4kHXSumyyZTfaaQDZauXKNQv9jm6fv+NcZAPuyVwj4OrHQQJy4T6J7P8qZoO9ZQ==",
+  "dgSpecHash": "4ne0R7MHF/Ce3Ry9yizMr5D2jXGN9TTF/ayhG/yen1EwAilblo8h0P63xSpVM6M28987WQYDhnT5sOi6qfCEqA==",
   "success": true,
   "projectFilePath": "/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/dennisrabinovitch/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/dennisrabinovitch/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.16/microsoft.aspnetcore.authentication.jwtbearer.7.0.16.nupkg.sha512",
     "/Users/dennisrabinovitch/.nuget/packages/microsoft.aspnetcore.openapi/7.0.15/microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
     "/Users/dennisrabinovitch/.nuget/packages/microsoft.data.sqlite.core/7.0.15/microsoft.data.sqlite.core.7.0.15.nupkg.sha512",
     "/Users/dennisrabinovitch/.nuget/packages/microsoft.entityframeworkcore/7.0.15/microsoft.entityframeworkcore.7.0.15.nupkg.sha512",
@@ -29,6 +30,8 @@
     "/Users/dennisrabinovitch/.nuget/packages/microsoft.identitymodel.abstractions/7.3.1/microsoft.identitymodel.abstractions.7.3.1.nupkg.sha512",
     "/Users/dennisrabinovitch/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.3.1/microsoft.identitymodel.jsonwebtokens.7.3.1.nupkg.sha512",
     "/Users/dennisrabinovitch/.nuget/packages/microsoft.identitymodel.logging/7.3.1/microsoft.identitymodel.logging.7.3.1.nupkg.sha512",
+    "/Users/dennisrabinovitch/.nuget/packages/microsoft.identitymodel.protocols/6.35.0/microsoft.identitymodel.protocols.6.35.0.nupkg.sha512",
+    "/Users/dennisrabinovitch/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.35.0/microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
     "/Users/dennisrabinovitch/.nuget/packages/microsoft.identitymodel.tokens/7.3.1/microsoft.identitymodel.tokens.7.3.1.nupkg.sha512",
     "/Users/dennisrabinovitch/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
     "/Users/dennisrabinovitch/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
