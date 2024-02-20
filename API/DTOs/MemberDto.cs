@@ -7,6 +7,8 @@ public class MemberDto
     // [Required] Possible way to make it required 
     public string UserName { get; set; }
     
+    public string PhotoUrl { get; set; }
+    
     public int Age { get; set; }
         
     public string KnownAs { get; set; }
