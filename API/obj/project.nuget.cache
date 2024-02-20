@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4ne0R7MHF/Ce3Ry9yizMr5D2jXGN9TTF/ayhG/yen1EwAilblo8h0P63xSpVM6M28987WQYDhnT5sOi6qfCEqA==",
+  "dgSpecHash": "8cH7cywKh2CvaVJTg/fkWjFTyBrGUR6m8W/zM1zuvY48I8X11FjmKrgn71LLi5uDNlqJr0YFZvYreSe35N09yA==",
   "success": true,
   "projectFilePath": "/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/API.csproj",
   "expectedPackageFiles": [
+    "/Users/dennisrabinovitch/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/dennisrabinovitch/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/dennisrabinovitch/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.16/microsoft.aspnetcore.authentication.jwtbearer.7.0.16.nupkg.sha512",
     "/Users/dennisrabinovitch/.nuget/packages/microsoft.aspnetcore.openapi/7.0.15/microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
