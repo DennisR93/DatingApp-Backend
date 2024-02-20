@@ -22,23 +22,36 @@ namespace API.Controllers
             _userRepository = userRepository;
             _mapper = mapper;
         }
-        
-        [HttpGet]
-        public async Task <ActionResult<IEnumerable<MemberDto>>> GetUsers()
-        {
-            var users = await _userRepository.GetUsersAsync();
-            var usersToReturn = _mapper.Map<IEnumerable<MemberDto>>(users);
 
-            return Ok(usersToReturn);
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
+        {
+            var users = await _userRepository.GetMembersAsync();
+
+            return Ok(users);
         }
+        // Old
+        // public async Task <ActionResult<IEnumerable<MemberDto>>> GetUsers()
+        // {
+        //     var users = await _userRepository.GetUsersAsync();
+        //     var usersToReturn = _mapper.Map<IEnumerable<MemberDto>>(users);
+        //
+        //     return Ok(usersToReturn);
+        // }
 
         [HttpGet("{username}")]
         public async Task<ActionResult<MemberDto>> GetUser(string username)
         {
-            var user = await _userRepository.GetUserByUsernameAsync(username);
-
-            return _mapper.Map<MemberDto>(user);
+            return await _userRepository.GetMemberAsync(username);
         }
+        
+        // Old
+        // public async Task<ActionResult<MemberDto>> GetUser(string username)
+        // {
+        //     var user = await _userRepository.GetUserByUsernameAsync(username);
+        //
+        //     return _mapper.Map<MemberDto>(user);
+        // }
 
         // [Authorize] no need because there is authorize on top level
         // [HttpGet("{id}")] // /api/users/2
