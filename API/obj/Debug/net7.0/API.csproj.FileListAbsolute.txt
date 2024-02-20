@@ -80,3 +80,4 @@
 /Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
 /Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/bin/Debug/net7.0/Data/UserSeedData.json
+/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/bin/Debug/net7.0/AutoMapper.dll
