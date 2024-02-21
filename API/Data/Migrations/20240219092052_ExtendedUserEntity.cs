@@ -50,14 +50,14 @@ namespace API.Data.Migrations
                 name: "Interests",
                 table: "Users",
                 type: "TEXT",
-                nullable: true,
+                nullable: false,
                 defaultValue: "");
 
             migrationBuilder.AddColumn<string>(
                 name: "Introduction",
                 table: "Users",
                 type: "TEXT",
-                nullable: true,
+                nullable: false,
                 defaultValue: "");
 
             migrationBuilder.AddColumn<string>(
@@ -78,7 +78,7 @@ namespace API.Data.Migrations
                 name: "LookingFor",
                 table: "Users",
                 type: "TEXT",
-                nullable: true,
+                nullable: false,
                 defaultValue: "");
 
             migrationBuilder.CreateTable(
@@ -87,8 +87,8 @@ namespace API.Data.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Url = table.Column<string>(type: "TEXT", nullable: true),
-                    IsMain = table.Column<bool>(type: "INTEGER", nullable: true),
+                    Url = table.Column<string>(type: "TEXT", nullable: false),
+                    IsMain = table.Column<bool>(type: "INTEGER", nullable: false),
                     PublicId = table.Column<string>(type: "TEXT", nullable: true),
                     AppUserId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
