@@ -31,7 +31,7 @@ public class MessageHub : Hub
 
         var messages = await _messageRepository.GetMessageThread(Context.User.GetUsername(), otherUser);
 
-        await Clients.Group(groupName).SendAsync("ReceiveMessageThread");
+        await Clients.Group(groupName).SendAsync("ReceiveMessageThread", messages);
     }
 
     public override Task OnDisconnectedAsync(Exception exception)
