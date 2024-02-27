@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/wwwroot/3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets/3rdpartylicenses.txt"
+    },
+    {
+      "Id": "/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/wwwroot/assets/images/user.png",
+      "PackagePath": "staticwebassets/assets/images/user.png"
+    },
+    {
+      "Id": "/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/wwwroot/main-CHDIYT2V.js",
+      "PackagePath": "staticwebassets/main-CHDIYT2V.js"
+    },
+    {
+      "Id": "/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/wwwroot/polyfills-RX4V3J3S.js",
+      "PackagePath": "staticwebassets/polyfills-RX4V3J3S.js"
+    },
+    {
+      "Id": "/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/wwwroot/styles-UH5T37TQ.css",
+      "PackagePath": "staticwebassets/styles-UH5T37TQ.css"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

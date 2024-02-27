@@ -89,3 +89,4 @@
 /Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
 /Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
 /Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/Users/dennisrabinovitch/Projects/DatingApp-FullStack/Backend/API/API/bin/Debug/net7.0/API.staticwebassets.runtime.json
